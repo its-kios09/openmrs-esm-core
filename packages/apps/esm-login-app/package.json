@@ -1,6 +1,6 @@
 {
   "name": "@digihmis/esm-login-app",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "license": "MPL-2.0",
   "description": "The login microfrontend for the OpenMRS SPA",
   "browser": "dist/digihmis-esm-login-app.js",
@@ -21,7 +21,10 @@
   },
   "keywords": [
     "openmrs",
-    "microfrontends"
+    "digihmis",
+    "microfrontends",
+    "healthcare",
+    "spa"
   ],
   "browserslist": [
     "extends browserslist-config-openmrs"
