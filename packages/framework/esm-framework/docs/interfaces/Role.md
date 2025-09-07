@@ -2,7 +2,7 @@
 
 # Interface: Role
 
-Defined in: [packages/framework/esm-api/src/types/user-resource.ts:62](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L62)
+Defined in: [packages/framework/esm-api/src/types/user-resource.ts:61](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L61)
 
 ## Properties
 
@@ -10,23 +10,15 @@ Defined in: [packages/framework/esm-api/src/types/user-resource.ts:62](https://g
 
 > **display**: `string`
 
-Defined in: [packages/framework/esm-api/src/types/user-resource.ts:65](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L65)
+Defined in: [packages/framework/esm-api/src/types/user-resource.ts:63](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L63)
 
 ***
 
-### links?
+### links
 
-> `optional` **links**: `any`[]
+> **links**: `any`[]
 
-Defined in: [packages/framework/esm-api/src/types/user-resource.ts:66](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L66)
-
-***
-
-### name
-
-> **name**: `string`
-
-Defined in: [packages/framework/esm-api/src/types/user-resource.ts:64](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L64)
+Defined in: [packages/framework/esm-api/src/types/user-resource.ts:64](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L64)
 
 ***
 
@@ -34,4 +26,4 @@ Defined in: [packages/framework/esm-api/src/types/user-resource.ts:64](https://g
 
 > **uuid**: `string`
 
-Defined in: [packages/framework/esm-api/src/types/user-resource.ts:63](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L63)
+Defined in: [packages/framework/esm-api/src/types/user-resource.ts:62](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-api/src/types/user-resource.ts#L62)

@@ -2,7 +2,7 @@
 
 # Interface: PatientPhotoProps
 
-Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx:11](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx#L11)
+Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx:11](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx#L11)
 
 ## Properties
 
@@ -18,7 +18,7 @@ Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.c
 
 > **patientName**: `string`
 
-Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx:12](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx#L12)
+Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx:12](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx#L12)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.c
 
 > **patientUuid**: `string`
 
-Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx:13](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx#L13)
+Defined in: [packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx:13](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/patient-photo/patient-photo.component.tsx#L13)

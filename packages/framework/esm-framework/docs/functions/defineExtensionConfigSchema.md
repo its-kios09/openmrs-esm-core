@@ -4,7 +4,7 @@
 
 > **defineExtensionConfigSchema**(`extensionName`, `schema`): `void`
 
-Defined in: [packages/framework/esm-config/src/module-config/module-config.ts:253](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-config/src/module-config/module-config.ts#L253)
+Defined in: [packages/framework/esm-config/src/module-config/module-config.ts:241](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-config/src/module-config/module-config.ts#L241)
 
 This defines a configuration schema for an extension. When a schema is defined
 for an extension, that extension will receive the configuration corresponding
@@ -24,8 +24,8 @@ for more information about defining a config schema.
 `string`
 
 Name of the extension the schema is being defined for.
-  Should match the `name` of one of the `extensions` entries defined in
-  the app's `routes.json` file.
+  Should match the `name` of one of the `extensions` entries being returned
+  by `setupOpenMRS`.
 
 ### schema
 

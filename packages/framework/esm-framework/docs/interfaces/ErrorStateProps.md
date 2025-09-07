@@ -2,7 +2,7 @@
 
 # Interface: ErrorStateProps
 
-Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.component.tsx:7](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/error-state/error-state.component.tsx#L7)
+Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.component.tsx:7](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/error-state/error-state.component.tsx#L7)
 
 ## Properties
 
@@ -10,9 +10,7 @@ Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.compo
 
 > **error**: `any`
 
-Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.component.tsx:9](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/error-state/error-state.component.tsx#L9)
-
-The error that caused this error card to be rendered. Expected to be a failed fetch result.
+Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.component.tsx:8](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/error-state/error-state.component.tsx#L8)
 
 ***
 
@@ -20,6 +18,4 @@ The error that caused this error card to be rendered. Expected to be a failed fe
 
 > **headerTitle**: `string`
 
-Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.component.tsx:11](https://github.com/openmrs/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/error-state/error-state.component.tsx#L11)
-
-The title to use for this empty component. This must be a pre-translated string.
+Defined in: [packages/framework/esm-styleguide/src/error-state/error-state.component.tsx:9](https://github.com/its-kios09/openmrs-esm-core/blob/main/packages/framework/esm-styleguide/src/error-state/error-state.component.tsx#L9)
