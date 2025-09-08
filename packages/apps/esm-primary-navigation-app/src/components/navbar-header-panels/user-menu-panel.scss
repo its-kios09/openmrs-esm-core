@@ -56,10 +56,10 @@
 }
 
 .userPanelSwitcher :global(.cds--switcher__item) button {
-  color: $inverse-link;
+  color: white;
 }
 
 .userPanelSwitcher :global(.cds--switcher__item) button:hover {
   @include brand-03(background-color);
-  color: $inverse-link;
+  color: white;
 }
