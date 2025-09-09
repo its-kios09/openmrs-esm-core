@@ -72,6 +72,20 @@ export const configSchema = {
       _description: 'The alternative text for the logo image, displayed when the image cannot be loaded or on hover.',
     },
   },
+  backgroundImage: {
+    src: {
+      _type: Type.String,
+      _default: '',
+      _description: 'The path or URL to the background image.',
+      _validators: [validators.isUrl],
+    },
+    alt: {
+      _type: Type.String,
+      _default: 'Background Image',
+      _description:
+        'The alternative text for the background image, displayed when the image cannot be loaded or on hover.',
+    },
+  },
   footer: {
     additionalLogos: {
       _type: Type.Array,
@@ -118,6 +132,14 @@ export interface ConfigSchema {
     loginSuccess: string;
   };
   logo: {
+    alt: string;
+    src: string;
+  };
+  flag: {
+    alt: string;
+    src: string;
+  };
+  backgroundImage: {
     alt: string;
     src: string;
   };

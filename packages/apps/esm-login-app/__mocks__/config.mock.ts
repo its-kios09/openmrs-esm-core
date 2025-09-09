@@ -16,6 +16,14 @@ export const mockConfig: ConfigSchema = {
     src: null,
     alt: 'Logo',
   },
+  backgroundImage: {
+    src: null,
+    alt: 'Background Image',
+  },
+  flag: {
+    src: null,
+    alt: 'Flag Image',
+  },
   links: {
     loginSuccess: '${openmrsSpaBase}/home',
   },
