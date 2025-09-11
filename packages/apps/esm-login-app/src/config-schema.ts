@@ -72,6 +72,20 @@ export const configSchema = {
       _description: 'The alternative text for the logo image, displayed when the image cannot be loaded or on hover.',
     },
   },
+  flag: {
+    src: {
+      _type: Type.String,
+      _default: '',
+      _description:
+        'The path or URL to the logo image. If set to an empty string, the default OpenMRS SVG sprite will be used.',
+      _validators: [validators.isUrl],
+    },
+    alt: {
+      _type: Type.String,
+      _default: 'Logo',
+      _description: 'The alternative text for the logo image, displayed when the image cannot be loaded or on hover.',
+    },
+  },
   backgroundImage: {
     src: {
       _type: Type.String,
