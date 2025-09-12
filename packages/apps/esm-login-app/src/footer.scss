@@ -28,15 +28,17 @@
 
 @media only screen and (max-width: 1024px) {
   .footer {
-    justify-content: center;
+    justify-content: flex-start;
+    background-color: white;
+    height: layout.$spacing-08;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .footer {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: layout.$spacing-03;
     padding: layout.$spacing-05;
   }

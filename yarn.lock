@@ -1621,6 +1621,34 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@digihmis/esm-primary-navigation-app@workspace:packages/apps/esm-primary-navigation-app":
+  version: 0.0.0-use.local
+  resolution: "@digihmis/esm-primary-navigation-app@workspace:packages/apps/esm-primary-navigation-app"
+  dependencies:
+    "@carbon/react": "npm:^1.92.1"
+    "@openmrs/esm-framework": "workspace:*"
+    "@openmrs/webpack-config": "workspace:*"
+    cross-env: "npm:^7.0.3"
+    jest: "npm:^29.7.0"
+    lodash-es: "npm:^4.17.21"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    react-i18next: "npm:^16.0.0"
+    react-router-dom: "npm:^6.3.0"
+    rxjs: "npm:^6.5.3"
+    webpack: "npm:^5.99.9"
+  peerDependencies:
+    "@carbon/react": 1.x
+    "@openmrs/esm-framework": "*"
+    react: 18.x
+    react-dom: 18.x
+    react-i18next: 16.x
+    react-router-dom: 6.x
+    rxjs: 6.x
+    single-spa: 6.x
+  languageName: unknown
+  linkType: soft
+
 "@discoveryjs/json-ext@npm:0.5.7, @discoveryjs/json-ext@npm:^0.5.7":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -4189,34 +4217,6 @@ __metadata:
     "@openmrs/esm-globals": 6.x
     "@openmrs/esm-state": 6.x
     rxjs: 6.x
-  languageName: unknown
-  linkType: soft
-
-"@openmrs/esm-primary-navigation-app@workspace:packages/apps/esm-primary-navigation-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-primary-navigation-app@workspace:packages/apps/esm-primary-navigation-app"
-  dependencies:
-    "@carbon/react": "npm:^1.92.1"
-    "@openmrs/esm-framework": "workspace:*"
-    "@openmrs/webpack-config": "workspace:*"
-    cross-env: "npm:^7.0.3"
-    jest: "npm:^29.7.0"
-    lodash-es: "npm:^4.17.21"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    react-i18next: "npm:^16.0.0"
-    react-router-dom: "npm:^6.3.0"
-    rxjs: "npm:^6.5.3"
-    webpack: "npm:^5.99.9"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": "*"
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 16.x
-    react-router-dom: 6.x
-    rxjs: 6.x
-    single-spa: 6.x
   languageName: unknown
   linkType: soft
 
