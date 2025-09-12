@@ -26,7 +26,7 @@ const BackgroundWrapper: React.FC<BackgroundWrapperProps> = ({ children }) => {
     </div>
   ) : (
     <>
-      {/* <img src={backgroundSrc || fallbackImage} alt={backgroundAlt} className={styles.backgroundImage} /> */}
+      <img src={backgroundSrc || fallbackImage} alt={backgroundAlt} className={styles.backgroundImage} />
       <div className={styles.backgroundContainer}>
         <div className={styles.contentOverlay}>{children}</div>
       </div>
