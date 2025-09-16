@@ -95,7 +95,7 @@ export const configSchema = {
     },
     alt: {
       _type: Type.String,
-      _default: 'Background Image',
+      _default: '',
       _description:
         'The alternative text for the background image, displayed when the image cannot be loaded or on hover.',
     },
