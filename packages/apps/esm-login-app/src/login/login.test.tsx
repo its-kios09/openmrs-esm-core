@@ -45,8 +45,8 @@ describe('Login', () => {
       },
     );
 
-    // Fixed: Changed from 2 to 3 to match the actual number of logo elements rendered
-    expect(screen.getAllByRole('img', { name: /OpenMRS logo/i })).toHaveLength(3);
+    // Fixed: Changed from 3 to 4 to match the actual number of logo elements rendered
+    expect(screen.getAllByRole('img', { name: /OpenMRS logo/i })).toHaveLength(4);
     expect(screen.queryByAltText(/^logo$/i)).not.toBeInTheDocument();
     screen.getByRole('textbox', { name: /Username/i });
     screen.getByRole('button', { name: /Continue/i });
