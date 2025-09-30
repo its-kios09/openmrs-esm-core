@@ -161,7 +161,7 @@ const LocationPickerView: React.FC<LocationPickerProps> = ({ hideWelcomeMessage,
               {isSubmitting ? (
                 <InlineLoading className={styles.loader} description={t('submitting', 'Submitting')} />
               ) : (
-                <span>{getCoreTranslation('confirm')}</span>
+                <span>{t('confirm', 'Confirm')}</span>
               )}
             </Button>
           </div>

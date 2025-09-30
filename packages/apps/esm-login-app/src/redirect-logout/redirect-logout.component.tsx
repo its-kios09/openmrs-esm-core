@@ -18,14 +18,6 @@ const RedirectLogout: React.FC = () => {
     } else {
       performLogout()
         .then(() => {
-          const defaultLanguage = document.documentElement.getAttribute('data-default-lang');
-
-          setUserLanguage({
-            locale: defaultLanguage,
-            authenticated: false,
-            sessionId: '',
-          });
-
           if (config.provider.type !== 'oauth2') {
             navigate({ to: '${openmrsSpaBase}/login' });
           }
