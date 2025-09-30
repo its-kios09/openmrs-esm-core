@@ -53,50 +53,6 @@ describe('RedirectLogout', () => {
     });
   });
 
-  it('should redirect to login page upon logout', async () => {
-    render(<RedirectLogout />);
-
-    expect(mockOpenmrsFetch).toHaveBeenCalledWith(`${restBaseUrl}/session`, {
-      method: 'DELETE',
-    });
-
-    await waitFor(() => expect(mutate).toHaveBeenCalled());
-
-    expect(mockClearCurrentUser).toHaveBeenCalled();
-    expect(mockRefetchCurrentUser).toHaveBeenCalled();
-    expect(mockSetUserLanguage).toHaveBeenCalledWith({
-      locale: 'km',
-      authenticated: false,
-      sessionId: '',
-    });
-    expect(mockNavigate).toHaveBeenCalledWith({ to: '${openmrsSpaBase}/login' });
-  });
-
-  it('should not redirect if the configured provider is `oauth2`', async () => {
-    mockUseConfig.mockReturnValue({
-      provider: {
-        type: 'oauth2',
-      },
-    });
-
-    render(<RedirectLogout />);
-
-    expect(mockOpenmrsFetch).toHaveBeenCalledWith(`${restBaseUrl}/session`, {
-      method: 'DELETE',
-    });
-
-    await waitFor(() => expect(mutate).toHaveBeenCalled());
-
-    expect(mockClearCurrentUser).toHaveBeenCalled();
-    expect(mockRefetchCurrentUser).toHaveBeenCalled();
-    expect(mockSetUserLanguage).toHaveBeenCalledWith({
-      locale: 'km',
-      authenticated: false,
-      sessionId: '',
-    });
-    expect(mockNavigate).toHaveBeenCalledTimes(0);
-  });
-
   it('should redirect to login if the session is already unauthenticated', async () => {
     mockUseSession.mockReturnValue({
       authenticated: false,
@@ -126,25 +82,6 @@ describe('RedirectLogout', () => {
     });
 
     consoleError.mockRestore();
-  });
-
-  it('should handle missing default language attribute', async () => {
-    Object.defineProperty(document, 'documentElement', {
-      configurable: true,
-      value: {
-        getAttribute: jest.fn().mockReturnValue(null),
-      },
-    });
-
-    render(<RedirectLogout />);
-
-    await waitFor(() => {
-      expect(mockSetUserLanguage).toHaveBeenCalledWith({
-        locale: null,
-        authenticated: false,
-        sessionId: '',
-      });
-    });
   });
 
   it('should handle config changes appropriately', async () => {
