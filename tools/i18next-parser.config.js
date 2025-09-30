@@ -30,31 +30,41 @@ module.exports = {
     htm: ['HTMLLexer'],
     html: ['HTMLLexer'],
 
-    mjs: [{
-      lexer: 'JavascriptLexer',
-      functions: ['t'],
-      namespaceFunctions: [],
-    }],
-    js: [{
-      lexer: 'JavascriptLexer',
-      functions: ['t'],
-      namespaceFunctions: [],
-    }], // if you're writing jsx inside .js files, change this to JsxLexer
-    ts: [{
-      lexer: 'JavascriptLexer',
-      functions: ['t'],
-      namespaceFunctions: [],
-    }],
-    jsx: [{
-      lexer: 'JsxLexer',
-      functions: ['t'],
-      namespaceFunctions: [],
-    }],
-    tsx: [{
-      lexer: 'JsxLexer',
-      functions: ['t'],
-      namespaceFunctions: [],
-    }],
+    mjs: [
+      {
+        lexer: 'JavascriptLexer',
+        functions: ['t'],
+        namespaceFunctions: [],
+      },
+    ],
+    js: [
+      {
+        lexer: 'JavascriptLexer',
+        functions: ['t'],
+        namespaceFunctions: [],
+      },
+    ], // if you're writing jsx inside .js files, change this to JsxLexer
+    ts: [
+      {
+        lexer: 'JavascriptLexer',
+        functions: ['t'],
+        namespaceFunctions: [],
+      },
+    ],
+    jsx: [
+      {
+        lexer: 'JsxLexer',
+        functions: ['t'],
+        namespaceFunctions: [],
+      },
+    ],
+    tsx: [
+      {
+        lexer: 'JsxLexer',
+        functions: ['t'],
+        namespaceFunctions: [],
+      },
+    ],
 
     default: ['JavascriptLexer'],
   },
@@ -62,7 +72,7 @@ module.exports = {
   lineEnding: 'auto',
   // Control the line ending. See options at https://github.com/ryanve/eol
 
-  locales: ['en'],
+  locales: ['en', 'am', 'sw'],
   // An array of the locales in your applications
 
   namespaceSeparator: ':',

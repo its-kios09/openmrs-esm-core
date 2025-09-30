@@ -18,6 +18,22 @@
   display: flex;
   flex-direction: column;
   max-height: 28rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: layout.$spacing-03; /* Prevent scrollbar overlap */
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
 }
 
 .languageRadioButton {
