@@ -17,5 +17,5 @@ export async function performLogout() {
     localStorage.setItem('i18nextLng', currentLanguage);
   }
 
-  // await refetchCurrentUser();
+  await refetchCurrentUser();
 }

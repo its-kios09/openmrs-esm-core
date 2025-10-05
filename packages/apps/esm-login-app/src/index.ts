@@ -15,9 +15,7 @@ const options = {
 
 export const importTranslation = require.context('../translations', false, /.json$/, 'lazy');
 
-export function startupApp() {
-  defineConfigSchema(moduleName, configSchema);
-}
+defineConfigSchema(moduleName, configSchema);
 
 export const root = getSyncLifecycle(rootComponent, options);
 export const locationPicker = getSyncLifecycle(locationPickerComponent, options);
