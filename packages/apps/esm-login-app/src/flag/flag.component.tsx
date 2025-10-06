@@ -1,10 +1,11 @@
 import React from 'react';
 import { interpolateUrl, useConfig } from '@openmrs/esm-framework';
-import { type TFunction } from 'react-i18next';
 import { type ConfigSchema } from '../config-schema';
+import { useTranslation } from 'react-i18next';
 
-const Flag: React.FC<{ t: TFunction }> = ({ t }) => {
+const Flag: React.FC = () => {
   const { flag } = useConfig<ConfigSchema>();
+  const { t } = useTranslation();
   return flag.src ? (
     <img alt={flag.alt ? t(flag.alt) : t('openmrsLogo', 'OpenMRS logo')} src={interpolateUrl(flag.src)} />
   ) : (

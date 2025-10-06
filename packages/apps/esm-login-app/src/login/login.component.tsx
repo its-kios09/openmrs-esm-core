@@ -141,7 +141,7 @@ const Login: React.FC = () => {
     return (
       <>
         <div className={styles.flagContainer}>
-          <Flag t={t} />
+          <Flag />
         </div>
         <BackgroundWrapper>
           <div className={styles.container}>
@@ -157,7 +157,7 @@ const Login: React.FC = () => {
                 </div>
               )}
               <div className={styles.center}>
-                <Logo t={t} />
+                <Logo />
               </div>
               <form onSubmit={handleSubmit}>
                 <div className={styles.inputGroup}>
