@@ -38,7 +38,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 8rem;
+  min-height: 100vh;
+  margin-top: 0;
 }
 
 .center {
@@ -95,19 +96,19 @@
 
 @media only screen and (min-width: 481px) {
   .container {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .container {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .container {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -156,6 +157,7 @@
   bottom: 100%;
   left: 0;
 }
+
 .flagContainer {
   position: absolute;
   top: layout.$spacing-02;
