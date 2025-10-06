@@ -77,7 +77,7 @@ const ChangePassword: React.FC = () => {
     <div className={styles.container}>
       <Tile className={styles.changePasswordCard}>
         <div className={styles.alignCenter}>
-          <Logo t={t} />
+          <Logo />
         </div>
         <Form onSubmit={handleSubmit(onSubmit, onError)}>
           <Controller
