@@ -167,3 +167,8 @@
   width: 60px;
   height: 40px;
 }
+
+:global(#omrs-top-nav-app-container) {
+  height: 0;
+  overflow: hidden;
+}
